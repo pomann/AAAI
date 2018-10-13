@@ -61,7 +61,7 @@ class Puzzle8Node():
                goal_row, goal_col = g_pos[tile]
                dist += abs(row - goal_row) + abs(col - goal_col)
 
-      return dist * 4
+      return dist
 
    def __str__(self):
       s = "|"
